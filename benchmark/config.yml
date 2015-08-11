@@ -29,6 +29,8 @@ gateways:
     auto_redirect: false
     default_currency: 'BTC'
     orders_expiration_period: 600 # seconds
+    merchant_url: 'http://localhost:3000/store'
+
 
     # This options decides whether we should also check the DB for status updates first
     # when we check order status. That is, if we're tracking an order and this option

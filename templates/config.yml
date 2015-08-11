@@ -51,6 +51,8 @@ gateways:
     orders_expiration_period: 600 # seconds
     after_payment_redirect_to: 'http://localhost:3000/my_app/my_own_page'
     auto_redirect: false
+    merchant_url: 'http://localhost:3000/my_app/my_own_page'
+
 
     # address_provider: 'Bip32'
     # address_derivation_scheme: 'm/0/n'

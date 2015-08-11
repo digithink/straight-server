@@ -25,6 +25,7 @@ FactoryGirl.define do
     check_signature false
     exchange_rate_adapter_names %w(Bitpay Coinbase Bitstamp)
     active true
+    merchant_url 'localhost:3000/store'
   end
 
 end
